@@ -98,11 +98,10 @@
 
 
 
-/* 设置外部容器样式，使其占据整个浏览器屏幕 */
-.outer-container {
-    width: 100%;
-    display: flex; /* 使用弹性布局 */
-}
+
+
+
+
 
 /* 设置卡片样式 */
 .card {
@@ -112,7 +111,8 @@
     padding: 20px; /* 设置内边距 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 设置阴影 */
     background-color: #f9f9f9; /* 设置背景色 */
-    flex: 1; /* 均分外部容器的宽度 */
+    width: calc(100vw / 1.618); /* 设置宽度为浏览器宽度的黄金比例 */
+    margin: 0 auto; /* 居中 */
 }
 
 /* 设置标题样式 */
@@ -133,14 +133,9 @@
     font-weight: bold; /* 设置文字加粗 */
 }
 
-/* 设置网格布局 */
-.grid-container {
-    display: grid; /* 使用网格布局 */
-}
-
 /* 设置图片样式 */
 .map-image {
-    width: 50vw; /* 设置图片宽度为浏览器宽度的一半 */
+    width: 100%; /* 设置图片宽度为父容器宽度 */
     height: auto; /* 自动调整高度 */
     border-radius: 8px; /* 设置边框圆角 */
 }
