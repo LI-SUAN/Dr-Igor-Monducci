@@ -1,7 +1,8 @@
 <!-- 调用CSS -->
 <?php
-echo '<link rel="stylesheet" href="导航栏\导航栏.css" />';
+echo '<link rel="stylesheet" href="全局元素\导航栏.css" />';
 ?>
+
 
 <?php
 function generateNavbar() {
