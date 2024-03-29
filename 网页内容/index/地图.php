@@ -3,6 +3,10 @@
 echo '<link rel="stylesheet" href="网页内容\index\地图.css" />';
 ?>
 
+
+
+
+
 <div class="card">
     <div class="map-info">
         <h2>Poliambulatorio San Michele, Reggio Emilia</h2>

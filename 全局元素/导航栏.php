@@ -4,6 +4,9 @@ echo '<link rel="stylesheet" href="全局元素\导航栏.css" />';
 ?>
 
 
+
+
+
 <?php
 function generateNavbar() {
     $links = [
@@ -17,6 +20,11 @@ function generateNavbar() {
     foreach ($links as $link) {
         echo '<a href="' . $link['url'] . '">' . $link['text'] . '</a>';
     }
+    echo '</div>';
+
+    // 添加登录按钮，单独定位在右上角
+    echo '<div class="login-button-container">';
+    echo '<a href="login.php" class="login-button">login</a>';
     echo '</div>';
 }
 

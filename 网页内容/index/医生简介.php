@@ -4,6 +4,9 @@ echo '<link rel="stylesheet" href="网页内容\index\医生简介.css" />';
 ?>
 
 
+
+
+
 <div class="image-container">
         <img src="网页内容\index\附件\Foto del dottore Igor Monducci.jpg" alt="Igor Monducci" class="centered-image" />
 </div>

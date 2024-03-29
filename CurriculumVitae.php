@@ -14,6 +14,9 @@
         <!-- 时间线 -->
         <?php include '网页内容\CurriculumVitae\时间线.php'; ?>
 
+        <!-- 页脚 -->
+        <?php include '全局元素\页脚.php'; ?>
+
     </body>
 
 </html>

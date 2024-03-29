@@ -1,0 +1,40 @@
+/* 设置全局字体为Arial或sans-serif */
+body {
+    font-family: Arial, sans-serif;
+    /* 重置默认外边距和内边距 */
+    margin: 0;
+    padding: 0;
+    /* 使用flex布局，使内容垂直排列 */
+    display: flex;
+    flex-direction: column;
+    /* 设置最小高度为视口高度，以确保内容至少占据整个视口高度 */
+    min-height: 100vh;
+}
+
+/* 使.wrapper填充flex容器的剩余空间 */
+.wrapper {
+    flex: 1;
+}
+
+/* 设置内容区域的内边距 */
+.content {
+    padding: 20px;
+}
+
+/* 设置页脚的背景颜色、文字颜色和内边距 */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* 设置页脚容器的最大宽度为90%，并水平居中 */
+.footer-container {
+    max-width: 90%;
+    margin: 0 auto; /* 居中 */
+}
+
+/* 设置页脚内容居中显示 */
+.footer-content {
+    text-align: center;
+}
