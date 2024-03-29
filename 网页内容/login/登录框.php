@@ -33,4 +33,5 @@ echo '<link rel="stylesheet" href="网页内容\login\登录框.css" />';
     </div>
 </div>
 
-<!-- <script src="网页内容\CurriculumVitae\时间线.js"></script> -->
+<script src="网页内容\login\登录框.js"></script>
+
